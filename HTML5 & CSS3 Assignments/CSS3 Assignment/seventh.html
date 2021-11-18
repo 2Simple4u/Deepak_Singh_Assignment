@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu{
+            position: relative;
+            border: 2px solid #f00;
+            
+        }
+        #menu:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 5px solid green;
+            border-style: dotted;
+}
+        span{
+            font-size: 20px;
+            font-weight: 600;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="menu">  
+         <p><span class="class1">Note:</span>  IE8 supports the outline properties only if a !DOCTYPE is 
+        specified.</p>
+    </div>
+</body>
+</html>
