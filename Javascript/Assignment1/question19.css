@@ -1,0 +1,16 @@
+body,html{
+    margin:0px;
+    
+}
+input[type="button"]{
+    border:none;
+    width:100%;
+    outline: none;
+    background-color: salmon;
+}
+#wrap
+{
+    margin: 200px;
+    background-color: darkslategray;
+    width: 15%;
+}
